@@ -56,15 +56,23 @@
 		76C82E411CDD317B0082545A /* Kilroy */ = {
 			isa = PBXGroup;
 			children = (
-				76C82E421CDD317B0082545A /* AppDelegate.swift */,
+				76C82E571CDD32CA0082545A /* Support Files */,
 				76C82E441CDD317B0082545A /* ViewController.swift */,
 				76C82E461CDD317B0082545A /* Main.storyboard */,
-				76C82E4C1CDD317B0082545A /* Assets.xcassets */,
-				76C82E4E1CDD317B0082545A /* LaunchScreen.storyboard */,
-				76C82E511CDD317B0082545A /* Info.plist */,
 				76C82E491CDD317B0082545A /* Kilroy.xcdatamodeld */,
 			);
 			path = Kilroy;
+			sourceTree = "<group>";
+		};
+		76C82E571CDD32CA0082545A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C82E421CDD317B0082545A /* AppDelegate.swift */,
+				76C82E4C1CDD317B0082545A /* Assets.xcassets */,
+				76C82E4E1CDD317B0082545A /* LaunchScreen.storyboard */,
+				76C82E511CDD317B0082545A /* Info.plist */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
