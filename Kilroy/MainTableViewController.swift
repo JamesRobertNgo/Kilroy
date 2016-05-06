@@ -15,6 +15,10 @@ class MainTableViewController: UITableViewController {
 	
 	var entries = [Entry]()
 	
+	@IBAction func unwindToMainTableViewController(segue: UIStoryboardSegue) {}
+	
+	// MARK: - UITableViewController
+	
     override func viewDidLoad() {
         super.viewDidLoad()
 
